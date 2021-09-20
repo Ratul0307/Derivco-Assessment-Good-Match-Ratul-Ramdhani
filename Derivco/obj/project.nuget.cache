@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "iqx/wiw1OHut5KYhdcG7ajmaChly+9jyLzpjBixRum8wVkJ7r0+2jCJoJDvNoIF6eNcwHy4WOivAl4PM4aSRTA==",
+  "success": true,
+  "projectFilePath": "D:\\DUT\\Durban Derivco\\Assessment\\Derivco\\Derivco\\Derivco.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ratul\\.nuget\\packages\\csvhelper\\27.1.1\\csvhelper.27.1.1.nupkg.sha512",
+    "C:\\Users\\ratul\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}

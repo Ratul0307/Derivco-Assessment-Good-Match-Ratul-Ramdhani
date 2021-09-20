@@ -1,0 +1,14 @@
+D:\DUT\Durban Derivco\Assessment\Derivco\Derivco\bin\Debug\netcoreapp3.1\Derivco.exe
+D:\DUT\Durban Derivco\Assessment\Derivco\Derivco\bin\Debug\netcoreapp3.1\Derivco.deps.json
+D:\DUT\Durban Derivco\Assessment\Derivco\Derivco\bin\Debug\netcoreapp3.1\Derivco.runtimeconfig.json
+D:\DUT\Durban Derivco\Assessment\Derivco\Derivco\bin\Debug\netcoreapp3.1\Derivco.runtimeconfig.dev.json
+D:\DUT\Durban Derivco\Assessment\Derivco\Derivco\bin\Debug\netcoreapp3.1\Derivco.dll
+D:\DUT\Durban Derivco\Assessment\Derivco\Derivco\bin\Debug\netcoreapp3.1\Derivco.pdb
+D:\DUT\Durban Derivco\Assessment\Derivco\Derivco\bin\Debug\netcoreapp3.1\CsvHelper.dll
+D:\DUT\Durban Derivco\Assessment\Derivco\Derivco\obj\Debug\netcoreapp3.1\Derivco.AssemblyInfoInputs.cache
+D:\DUT\Durban Derivco\Assessment\Derivco\Derivco\obj\Debug\netcoreapp3.1\Derivco.AssemblyInfo.cs
+D:\DUT\Durban Derivco\Assessment\Derivco\Derivco\obj\Debug\netcoreapp3.1\Derivco.csproj.CoreCompileInputs.cache
+D:\DUT\Durban Derivco\Assessment\Derivco\Derivco\obj\Debug\netcoreapp3.1\Derivco.csproj.CopyComplete
+D:\DUT\Durban Derivco\Assessment\Derivco\Derivco\obj\Debug\netcoreapp3.1\Derivco.dll
+D:\DUT\Durban Derivco\Assessment\Derivco\Derivco\obj\Debug\netcoreapp3.1\Derivco.pdb
+D:\DUT\Durban Derivco\Assessment\Derivco\Derivco\obj\Debug\netcoreapp3.1\Derivco.genruntimeconfig.cache
