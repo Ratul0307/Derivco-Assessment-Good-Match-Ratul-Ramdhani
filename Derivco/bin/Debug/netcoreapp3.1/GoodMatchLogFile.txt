@@ -1,0 +1,16 @@
+
+Log Entry: 15:01:13 Monday, 20 September 2021
+  :Execution Time of Good Match process: 89551 Ticks, or 8ms
+-------------------------------------
+
+Log Entry: 15:01:17 Monday, 20 September 2021
+  :Execution Time of Percentage Match Calculator: 675 Ticks, or 0ms
+-------------------------------------
+
+Log Entry: 15:05:37 Monday, 20 September 2021
+  :Execution Time of Good Match process: 22741 Ticks, or 2ms
+-------------------------------------
+
+Log Entry: 15:05:40 Monday, 20 September 2021
+  :Execution Time of Percentage Match Calculator: 2105 Ticks, or 0ms
+-------------------------------------

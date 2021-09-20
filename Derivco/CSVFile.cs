@@ -61,6 +61,7 @@ namespace Derivco
             string path = Console.ReadLine();
             while(string.IsNullOrEmpty(path)) //Validation to make sure that the User Inputs a filepath
             {
+                Console.ForegroundColor = ConsoleColor.Yellow;
                 Console.WriteLine("Please enter a File Path");
                 path = Console.ReadLine();
 
@@ -72,33 +73,42 @@ namespace Derivco
 
             if (regexCSV.IsMatch(path.ToLower()))     //Using Regular expressions to run a check to see if a .csv file is being input or not
             {
-
-                using (var reader = new StreamReader(path))  //Using StreamReader to read the input file
+                try
                 {
-                    List<string> People = new List<string>();
-                    List<string> duplicate = new List<string>();
-
-
-                    while (!reader.EndOfStream)  //Runs until there isnt anymore data to process, this takes the data and splits them into rows
+                    using (var reader = new StreamReader(path))  //Using StreamReader to read the input file
                     {
-                        var line = reader.ReadLine();
-                        var values = line.Split('\r');
-                        var count = values.Count();
+                        List<string> People = new List<string>();
+                        List<string> duplicate = new List<string>();
 
-                        People.Add(values[0].ToLower());
-                        People.Sort();
-                        duplicate = People.Distinct().ToList(); //Removes Duplicates from the list
+
+                        while (!reader.EndOfStream)  //Runs until there isnt anymore data to process, this takes the data and splits them into rows
+                        {
+                            var line = reader.ReadLine();
+                            var values = line.Split('\r');
+                            var count = values.Count();
+
+                            People.Add(values[0].ToLower());
+                            People.Sort();
+                            duplicate = People.Distinct().ToList(); //Removes Duplicates from the list
+                        }
+                        Console.WriteLine("Original Data: " + "\n" + string.Join("; ", People));
+                        Console.WriteLine("");
+                        Console.WriteLine("People with Duplicates removed: " + "\n" + string.Join(", ", duplicate));
+                        Console.WriteLine("");
+
+                        seperateArray(duplicate);
                     }
-                    Console.WriteLine("Original Data: " + "\n" + string.Join("; ", People));
-                    Console.WriteLine("");
-                    Console.WriteLine("People with Duplicates removed: " + "\n" + string.Join(", ", duplicate));
-                    Console.WriteLine("");
-
-                    seperateArray(duplicate);
                 }
+                catch (Exception)
+                {
+                    Console.ForegroundColor = ConsoleColor.Red;
+                    Console.WriteLine("CSV file was not found, please enter the correct path" + "\n");
+                }
+                
             }
             else
             {
+                Console.ForegroundColor = ConsoleColor.Red;
                 Console.WriteLine("CSV file was not found, please enter the correct path" + "\n");
             }
 
@@ -126,16 +136,25 @@ namespace Derivco
             watch.Start(); //Start stopwatch to measure execution time
             for (int i = 0; i < peopleArray.Count; i++)  //Used Regular Expressions to search through Lists for Males and Females
             {
-                if (regexM.IsMatch(peopleArray[i]))
+                
+                if (regexM.IsMatch(peopleArray[i]))  //If Regex matches Male, then it will add the name to the male list
                 {
                     male.Add(peopleArray[i]);
                 }
 
-                if (regexF.IsMatch(peopleArray[i]))
+                if (regexF.IsMatch(peopleArray[i])) //If Regex matches Female, then it will add the name to the Female list
                 {
                     female.Add(peopleArray[i]);
                 }
+               
             }
+
+            if (male.Count == 0 && female.Count == 0)
+            {
+                Console.ForegroundColor = ConsoleColor.Red;
+                Console.WriteLine("Seems like something went wrong, please make sure that your CSV file has the right delimiters (,)");
+            }
+
             watch.Stop();
             logger.Log($"Execution Time of to Seperate CSV List into Male and Female: {watch.ElapsedTicks} Ticks, or {watch.ElapsedMilliseconds}ms");
 
@@ -304,11 +323,13 @@ namespace Derivco
                     {
                         if (sum >= 80)
                         {
+                            Console.ForegroundColor = ConsoleColor.Green;
                             Console.WriteLine((string.Join(", ", nameFirst[k])) + " matches " + (string.Join(", ", nameLast[k])) + " " + sum + "%" + ", " + " Good Match!" + "\n");
                             saveOutput += (string.Join(", ", nameFirst[k])) + " matches " + (string.Join(", ", nameLast[k])) + " " + sum + "%" + ", " + " Good Match!" + "\n";
                         }
                         else
                         {
+                            Console.ForegroundColor = ConsoleColor.Gray;
                             Console.WriteLine((string.Join(", ", nameFirst[k])) + " matches " + (string.Join(", ", nameLast[k])) + " " + sum + "%" + "\n");
                             saveOutput += (string.Join(", ", nameFirst[k])) + " matches " + (string.Join(", ", nameLast[k])) + " " + sum + "%" + "\n";
                         }
@@ -337,6 +358,7 @@ namespace Derivco
                     tw.WriteLine("Good Match Process: ");
                     tw.WriteLine(outputText);
                     tw.Close();
+                    Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine("Awesome! your output.txt file has been exported, look in the bin folder located in the Application Directory");
                 }
                 catch (Exception e)

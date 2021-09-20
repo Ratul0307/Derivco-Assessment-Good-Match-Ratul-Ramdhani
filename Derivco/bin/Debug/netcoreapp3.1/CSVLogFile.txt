@@ -1,0 +1,124 @@
+
+Log Entry: 14:59:29 Monday, 20 September 2021
+  :Execution Time of to Process CSV File while running Sort and Duplicate remover: 173762685 Ticks, or 17376ms
+-------------------------------------
+
+Log Entry: 14:59:44 Monday, 20 September 2021
+  :Execution Time of to Process CSV File while running Sort and Duplicate remover: 63282748 Ticks, or 6328ms
+-------------------------------------
+
+Log Entry: 15:00:05 Monday, 20 September 2021
+  :Execution Time of to Seperate CSV List into Male and Female: 458 Ticks, or 0ms
+-------------------------------------
+
+Log Entry: 15:00:05 Monday, 20 September 2021
+  :Execution Time of to Process CSV File Good Match process on Each Male and Female Pair: 56615 Ticks, or 5ms
+-------------------------------------
+
+Log Entry: 15:00:05 Monday, 20 September 2021
+  :Execution Time of to Process CSV File Good Match process on Each Male and Female Pair: 56615 Ticks, or 5ms
+-------------------------------------
+
+Log Entry: 15:00:05 Monday, 20 September 2021
+  :Execution Time of to Process CSV File Good Match process on Each Male and Female Pair: 56615 Ticks, or 5ms
+-------------------------------------
+
+Log Entry: 15:00:48 Monday, 20 September 2021
+  :Execution Time of to Process CSV File while running Sort and Duplicate remover: 615834754 Ticks, or 61583ms
+-------------------------------------
+
+Log Entry: 15:12:00 Monday, 20 September 2021
+  :Execution Time of to Process CSV File while running Sort and Duplicate remover: 455376259 Ticks, or 45537ms
+-------------------------------------
+
+Log Entry: 15:12:09 Monday, 20 September 2021
+  :Execution Time of to Seperate CSV List into Male and Female: 16802 Ticks, or 1ms
+-------------------------------------
+
+Log Entry: 15:14:53 Monday, 20 September 2021
+  :Execution Time of to Process CSV File while running Sort and Duplicate remover: 17693392 Ticks, or 1769ms
+-------------------------------------
+
+Log Entry: 15:16:05 Monday, 20 September 2021
+  :Execution Time of to Seperate CSV List into Male and Female: 235 Ticks, or 0ms
+-------------------------------------
+
+Log Entry: 15:17:14 Monday, 20 September 2021
+  :Execution Time of to Seperate CSV List into Male and Female: 276 Ticks, or 0ms
+-------------------------------------
+
+Log Entry: 15:18:18 Monday, 20 September 2021
+  :Execution Time of to Process CSV File while running Sort and Duplicate remover: 391782975 Ticks, or 39178ms
+-------------------------------------
+
+Log Entry: 15:18:46 Monday, 20 September 2021
+  :Execution Time of to Process CSV File while running Sort and Duplicate remover: 88295522 Ticks, or 8829ms
+-------------------------------------
+
+Log Entry: 15:18:58 Monday, 20 September 2021
+  :Execution Time of to Seperate CSV List into Male and Female: 478 Ticks, or 0ms
+-------------------------------------
+
+Log Entry: 15:18:58 Monday, 20 September 2021
+  :Execution Time of to Process CSV File Good Match process on Each Male and Female Pair: 26950 Ticks, or 2ms
+-------------------------------------
+
+Log Entry: 15:18:58 Monday, 20 September 2021
+  :Execution Time of to Process CSV File Good Match process on Each Male and Female Pair: 26950 Ticks, or 2ms
+-------------------------------------
+
+Log Entry: 15:18:58 Monday, 20 September 2021
+  :Execution Time of to Process CSV File Good Match process on Each Male and Female Pair: 26950 Ticks, or 2ms
+-------------------------------------
+
+Log Entry: 15:19:05 Monday, 20 September 2021
+  :Execution Time of to Process CSV File while running Sort and Duplicate remover: 149197061 Ticks, or 14919ms
+-------------------------------------
+
+Log Entry: 15:24:03 Monday, 20 September 2021
+  :Execution Time of to Seperate CSV List into Male and Female: 12086 Ticks, or 1ms
+-------------------------------------
+
+Log Entry: 15:26:02 Monday, 20 September 2021
+  :Execution Time of to Process CSV File while running Sort and Duplicate remover: 150007109 Ticks, or 15000ms
+-------------------------------------
+
+Log Entry: 15:26:09 Monday, 20 September 2021
+  :Execution Time of to Seperate CSV List into Male and Female: 346 Ticks, or 0ms
+-------------------------------------
+
+Log Entry: 15:27:07 Monday, 20 September 2021
+  :Execution Time of to Seperate CSV List into Male and Female: 520 Ticks, or 0ms
+-------------------------------------
+
+Log Entry: 15:34:58 Monday, 20 September 2021
+  :Execution Time of to Seperate CSV List into Male and Female: 4195 Ticks, or 0ms
+-------------------------------------
+
+Log Entry: 15:36:38 Monday, 20 September 2021
+  :Execution Time of to Seperate CSV List into Male and Female: 3112 Ticks, or 0ms
+-------------------------------------
+
+Log Entry: 15:36:52 Monday, 20 September 2021
+  :Execution Time of to Process CSV File while running Sort and Duplicate remover: 266121221 Ticks, or 26612ms
+-------------------------------------
+
+Log Entry: 15:37:40 Monday, 20 September 2021
+  :Execution Time of to Process CSV File while running Sort and Duplicate remover: 155965970 Ticks, or 15596ms
+-------------------------------------
+
+Log Entry: 15:38:11 Monday, 20 September 2021
+  :Execution Time of to Seperate CSV List into Male and Female: 677 Ticks, or 0ms
+-------------------------------------
+
+Log Entry: 15:38:11 Monday, 20 September 2021
+  :Execution Time of to Process CSV File Good Match process on Each Male and Female Pair: 27541 Ticks, or 2ms
+-------------------------------------
+
+Log Entry: 15:38:11 Monday, 20 September 2021
+  :Execution Time of to Process CSV File Good Match process on Each Male and Female Pair: 27541 Ticks, or 2ms
+-------------------------------------
+
+Log Entry: 15:38:11 Monday, 20 September 2021
+  :Execution Time of to Process CSV File Good Match process on Each Male and Female Pair: 27541 Ticks, or 2ms
+-------------------------------------

@@ -54,12 +54,13 @@ namespace Derivco
             Console.WriteLine("");
             while (true)
             {
+                Console.WriteLine("");
                 Console.ForegroundColor = ConsoleColor.Gray;
                 Console.WriteLine("Please Indicate which option you would like by typing either 1 or 2: ");
                 Console.WriteLine("Option 1: Good Match");
                 Console.WriteLine("Option 2: CSV File");
                 string charinput = Console.ReadLine();
-                logger.Log("Input for Menu Decision:  " + charinput);
+                Console.WriteLine("");
 
                 if (charinput.Equals("1"))
                 {
@@ -74,9 +75,8 @@ namespace Derivco
                 {
                     Console.ForegroundColor = ConsoleColor.Red;
                     Console.WriteLine("Please use the correct Charcters ( 1 or 2 )");
-                    logger.Log("Incorrect Charcter for Menu Choice");
                     Console.ForegroundColor = ConsoleColor.White;
-                    Console.WriteLine("Press Enter Key to go back to back to Menu:");
+                    Console.WriteLine("Press Enter Key to go back to back to Menu ....");
                     Console.ReadLine();
                 }
             }
@@ -139,7 +139,9 @@ namespace Derivco
             logger.Log($"Execution Time of Good Match process: {watch.ElapsedTicks} Ticks, or {watch.ElapsedMilliseconds}ms");  //Logging how long this Good Match Process took to run
 
             int[] totalnum = noOfCount.ToArray();
+            Console.ForegroundColor = ConsoleColor.Blue;
             Console.WriteLine("Your array for this sentence is: " + String.Join(",", totalnum) + "\n");
+            Console.ForegroundColor = ConsoleColor.Yellow;
             Console.WriteLine("Press the Enter Key to find out the percentage match of your two names" + "\n");
             Console.ReadKey();
 
@@ -236,10 +238,12 @@ namespace Derivco
             {
                 if (sum >= 80)
                 {
+                    Console.ForegroundColor = ConsoleColor.Green;
                     Console.WriteLine(nameFirst + " matches " + nameLast + " " + sum + "%" + ", " + " Good Match!");
                 }
                 else
                 {
+                    Console.ForegroundColor = ConsoleColor.Gray;
                     Console.WriteLine(nameFirst + " matches " + nameLast + " " + sum + "%");
                 }
 
